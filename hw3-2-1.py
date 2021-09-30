@@ -2,4 +2,23 @@
 grade = input("Please enter your grade.")
 if grade < 60:
     print("You got an F.")
-    
+elif grade <= 64:
+    print("You got a D.")
+elif grade <= 69:
+    print("You got a D+.")
+elif grade <= 72:
+    print("You got a C-.")
+elif grade <= 64:
+    print("You got a D.")
+elif grade <= 64:
+    print("You got a D.")
+elif grade <= 64:
+    print("You got a D.")
+elif grade <= 64:
+    print("You got a D.")
+elif grade <= 64:
+    print("You got a D.")
+elif grade <= 64:
+    print("You got a D.")
+elif grade <= 64:
+    print("You got a D.")
