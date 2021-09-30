@@ -1,5 +1,5 @@
 # Author: CRS 9/29/21
-grade = input("Please enter your grade.")
+grade = int(input("Please enter your grade."))
 if grade < 60:
     print("You got an F.")
 elif grade <= 64:
@@ -8,17 +8,17 @@ elif grade <= 69:
     print("You got a D+.")
 elif grade <= 72:
     print("You got a C-.")
-elif grade <= 64:
-    print("You got a D.")
-elif grade <= 64:
-    print("You got a D.")
-elif grade <= 64:
-    print("You got a D.")
-elif grade <= 64:
-    print("You got a D.")
-elif grade <= 64:
-    print("You got a D.")
-elif grade <= 64:
-    print("You got a D.")
-elif grade <= 64:
-    print("You got a D.")
+elif grade <= 76:
+    print("You got a C.")
+elif grade <= 79:
+    print("You got a C+.")
+elif grade <= 82:
+    print("You got a B-.")
+elif grade <= 86:
+    print("You got a B.")
+elif grade <= 89:
+    print("You got a B+.")
+elif grade <= 92:
+    print("You got an A-.")
+elif grade <= 100:
+    print("You got an A.")
