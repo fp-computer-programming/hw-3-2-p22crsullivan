@@ -1,7 +1,7 @@
 # Author: CRS 9/29/21
 weight = int(input("Please enter your weight."))
 height = int(input("Please enter your height."))
-bmi = weight / height
+bmi = weight / (height ** 2)
 if bmi < 19:
     print("Underweight.")
 elif bmi < 25:
